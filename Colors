@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+header {
+  background-color: #004aad;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #e6f0ff;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #004aad;
+}
+
+.btn-group {
+  margin-top: 2rem;
+}
+
+.btn-group button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-group button:hover {
+  background-color: #ff7a00; /* laranja */
+}
+
+.login {
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input,
+.login select,
+.login button {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #ff7a00;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  margin-top: 2rem;
+}
