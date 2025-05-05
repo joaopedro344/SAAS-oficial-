@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Trampa - Freelancers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Trampa</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="vagas.html">Vagas</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Freelancers disponíveis</h2>
+    <div class="card">
+      <h3>Pedro Souza</h3>
+      <p>Editor de vídeo com 3 anos de experiência. Especialista em conteúdo para redes sociais.</p>
+      <button>Ver Perfil</button>
+    </div>
+    <div class="card">
+      <h3>Maria Silva</h3>
+      <p>Gestora de tráfego com cases de sucesso em e-commerce e infoprodutos.</p>
+      <button>Ver Perfil</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Trampa. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
